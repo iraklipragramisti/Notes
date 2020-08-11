@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:background="@drawable/list_drawable"
+    android:weightSum="100"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="70"
+        android:text="Some Title"
+        android:textSize="23dp"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:maxLength="25"
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        />
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:textColor="@android:color/white"
+        android:text="22 June 2019"
+        android:gravity="center"
+        android:textSize="17sp"
+        />
+
+</LinearLayout>

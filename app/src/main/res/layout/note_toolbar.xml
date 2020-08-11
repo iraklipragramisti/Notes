@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    >
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="10"
+        android:background="@drawable/ic_arrow_back_black_24dp"
+        android:layout_gravity="center_vertical"
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        />
+
+    <TextView
+        android:id="@+id/nameplace"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="85"
+        android:text="Nameplace"
+        android:textSize="23sp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>
+
